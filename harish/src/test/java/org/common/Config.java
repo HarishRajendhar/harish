@@ -8,13 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Config {
+public class Config{
 	
 	private static WebDriver driver = null;
+
 	
-//	public Config() {
-//		PageFactory.initElements(driver, HomePage.class);
-//	}
 	
 	public static void launchBrowser() {
 		WebDriverManager.chromedriver().setup();
