@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features = "src/test/java/features/Signout.feature",
+		features = "src/test/java/features/CredentialsFunctionality.feature",
 		glue = "stepDefinations")
 		
 	

@@ -33,7 +33,7 @@ public class CredentialsFunctionality  {
     	Config.getDriver().findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Newuser123!");
 		Config.getDriver().findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(2000);
-		Config.getDriver().findElement(By.xpath("//div[@class='col-sm-4 p-0']//div[2]//span[2]//a[1]")).click();
+		Config.getDriver().findElement(By.xpath("//div[text()='HARISH R']")).click();
 		
     }
     
@@ -46,8 +46,14 @@ public class CredentialsFunctionality  {
 //    	Config.getDriver().findElement(By.xpath("//input[@id='cr_name']")).sendKeys("newcredtest");
 //    	Config.getDriver().findElement(By.xpath("//div[@class='css-1hwfws3 form-control-select__value-container']")).click();
 //    	Config.getDriver().findElement(By.xpath("//div[@class='css-1hwfws3 form-control-select__value-container form-control-select__value-container--has-value']")).click();
-    	Config.getDriver().findElement(By.xpath("//img[@alt='Credentials']")).click();
-    	Config.getDriver().findElement(By.xpath("//a[@id='credential_add']")).click();
+    	Config.getDriver().findElement(By.xpath("//img[@alt='Systems']")).click();
+    	Config.getDriver().findElement(By.xpath("//img[@class='clo-opt-h']")).click();
+    	Config.getDriver().findElement(By.xpath("//div[text()='Edit']")).click();
+    	Config.getDriver().findElement(By.xpath("//button[text()='Add New Credential']")).click();
+    	
+    	
+
+    	
     	Config.getDriver().findElement(By.id("cr_name")).sendKeys("Big commerce");
     	
     	
