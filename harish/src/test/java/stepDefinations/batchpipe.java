@@ -27,7 +27,7 @@ public class batchpipe {
     public void navigate_to_a_particular_project_and_navigate_to_particular_pipe() throws Throwable {
     	Thread.sleep(2000);
     	Config.getDriver().findElement(By.xpath("//div[@id='merchant-dashboard']//div[3]//span[2]//a[1]")).click();	
-    
+ //test   
     }
 
     @Then("^click sync now for a batch pipe$")
